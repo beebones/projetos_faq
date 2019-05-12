@@ -25,17 +25,27 @@ html {
 }
 .top-header {
     background-color:rgb(255, 255, 255);
-    display: inline-block;
     width: 100%;
 }
 .header-bar {
     background-color:rgb(255, 255, 255);
+    margin: 0;
+    width: 100%;
+    vertical-align: middle;
+    padding: 0;
+    display: flex;
+    align-items: center;
 }
 .header-bar section {
     display: inline-block;
     color: rgb(250, 50, 150);
 }
-
+.search {
+    padding:0;
+}
+.cart {
+    float: right;
+}
 .top-nav {
     background-color: rgb(250, 50, 150);
 }
