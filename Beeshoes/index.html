@@ -8,20 +8,35 @@
     <title>Loja de Artigos Femininos | Beeshoes</title>
     <link rel="icon" href="imagens/icon.png">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+    <link href="css/normalize.css" rel="stylesheet">
+    <link href="css/main.css" rel="stylesheet">
 </head>
 <body>
-    <header>
-        <img src="imagens/beeshoes08.PNG" alt="logotipo Beeshoes">
-        <nav>
+    <div class="bar-top">
+        <a class="bar-top-left" href="#"><i class="fas fa-tags"></i> PRODUTOS COM ATÉ 70% DE DESCONTO</a>
+        <a class="bar-top-right" href="#"><i class="fas fa-question-circle"></i> Tire suas dúvidas</a>
+    </div>
+    <header class="top-header">
+        <div class="header-bar">
+            <section><img src="imagens/beeshoes08.PNG" alt="logotipo Beeshoes"></section>
+            <section><div id="divBusca">
+                <input type="text" id="txtBusca" placeholder="Buscar..."/>
+                <i class="fas fa-search" id="btnBusca" alt="Buscar"></i>
+            </div></section>
+            <section><h3 class="wishlist-user"><i class="far fa-heart"></i> Lista de desejos</h3></section>
+            <section><h3 class="login-user"><i class="far fa-user"></i> Entrar</h3></section>
+            <section><h3 class="cart"><i class="fas fa-shopping-cart"></i></h3></section>
+        </div>
+        <nav class="top-nav">
             <ul>
-                <li><a href='#'></a>Todas as categorias</li>
+                <li><a href='#'>Todas as categorias</a></li>
                 <li><a href='#'>Lançamentos</a></li>
                 <li><a href='#'>Ofertas</a></li>
                 <li><a href='#'>Baixe App</a></li>
-                <li><a href='#'></a>Cartão Presente</li>
-                <li><a href='#'></a>Cartão BCard</li>
-                <li><a href='#'></a>TV Beeshoes</li>
-                <li><a href='#'></a>2 por R$99,90</li>
+                <li><a href='#'>Cartão Presente</a></li>
+                <li><a href='#'>Cartão BCard</a></li>
+                <li><a href='#'>TV Beeshoes</a></li>
+                <li><a href='#'>2 por R$99,90</a></li>
             </ul>
         </nav>
     </header>

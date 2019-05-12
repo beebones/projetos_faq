@@ -1,0 +1,71 @@
+@charset "UTF-8";
+html {
+    font-family: sans-serif;
+}
+.bar-top {
+    background-color: rgb(250, 50, 150);
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+    width: 100%;
+}
+.bar-top a {
+    text-decoration: none;
+    color: #ffffff;
+}
+.bar-top-right {
+    float: right;
+    padding: 8px;
+    margin-right: 5px;
+}
+.bar-top-left {
+    float: left;
+    padding: 8px;
+    margin-left: 10px;
+}
+.top-header {
+    background-color:rgb(255, 255, 255);
+    display: inline-block;
+    width: 100%;
+}
+.header-bar {
+    background-color:rgb(255, 255, 255);
+}
+.header-bar section {
+    display: inline-block;
+    color: rgb(250, 50, 150);
+}
+
+.top-nav {
+    background-color: rgb(250, 50, 150);
+}
+.top-nav ul {
+    list-style: none;
+}
+.top-nav li {
+    display: inline-block;
+    text-decoration: none;
+}
+#divBusca {
+    background-color:rgb(255, 255, 255);
+    border:solid 1px;
+    border-radius:15px;
+    height: 35px;
+    width:300px;
+  }
+   
+#txtBusca {
+    float:left;
+    background-color:transparent;
+    padding-left:10px;
+    font-style:italic;
+    font-size:18px;
+    border:none;
+    height:32px;
+    width:260px;
+  }
+#btnBusca {
+    border:none;
+    height:32px;
+    margin-top: 10px;
+}
