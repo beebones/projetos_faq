@@ -8,6 +8,7 @@
     <title>Loja de Artigos Femininos | Beeshoes</title>
     <link rel="icon" href="imagens/icon.png">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link href="css/normalize.css" rel="stylesheet">
     <link href="css/main.css" rel="stylesheet">
 </head>
@@ -88,45 +89,113 @@
             <li>Outras Dúvidas</li>
         </ul>
     </section>
+    <div class="accordion" id="accordionExample">
+        <div class="card">
+          <div class="card-header" id="headingOne">
+            <h2 class="mb-0">
+              <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                Ainda não recebi meu pedido, o que fazer?
+              </button>
+            </h2>
+          </div>      
+          <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+            <div class="card-body">
+                <p>Primeiro, verifique se a data não está dentro do prazo de entrega previsto, acessando <a href="#">“Meus Pedidos”</a>, onde você pode ver todos os status da compra.</p>
+                <p>Se você ainda não recebeu seu pedido e a data de entrega já expirou, certifique-se que o pagamento foi confirmado pela administradora do cartão.</p>
+                <p>Para os casos de boleto, confirme se ele foi pago até a data do vencimento.</p>
+                <p>Veja também se o endereço colocado para entrega está correto.</p>
+                <p>São feitas três tentativas de entrega, então, confirme se as pessoas encarregadas de receber seu pedido não recusaram o recebimento.</p>
+                <p>As entregas são realizadas de segunda a sexta, das 8h às 18h. Alguns fatores climáticos ou situações adversas podem interferir na entrega de suas compras. Nesses casos, verifique se na sua região ocorreram chuvas fortes ou acidentes graves.</p>
+                <p>Se o seu pedido foi enviado pelos Correios, eventualmente, ele estará disponível para retirada na própria agência. Neste caso verifique o rastreamento.</p>
+                <p>O prazo de contestação da entrega de um pedido é de 30 dias corridos, contados a partir da realização da entrega.</p>
+                <a href="#">Este artigo foi util?</a>
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-header" id="headingTwo">
+            <h2 class="mb-0">
+              <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                Como devolver um produto?
+              </button>
+            </h2>
+          </div>
+          <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+            <div class="card-body">
+                <p>Você pode fazer a devolução online em 3 passos. Confira:</p>
+                <p>1) Clique em “Meus Pedidos” e faça o login. Na lista, escolha o pedido e veja se ele já está disponível para devolução, se estiver, é só escolher o produto e clicar em “devolver item”.</p>
+                <p>2) Escolha o motivo nas opções exibidas.</p>
+                <p>3) Depois, é só finalizar e aguardar o e-mail enviado para o endereço cadastrado, com o código de postagem e outras orientações sobre a ativação do seu vale compras.</p>
+                <a href="#">Este artigo foi util?</a>
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-header" id="headingThree">
+            <h2 class="mb-0">
+              <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                Como recebo o dinheiro de volta quando cancelar uma compra?
+              </button>
+            </h2>
+          </div>
+          <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+            <div class="card-body">
+                <p>Após a solicitação de cancelamento, começa a contar o prazo de 10 dias úteis para aprovação da devolução dos valores, que acontece depois do recebimento e análise das condições do(s) produto(s).</p>
+                <p>Os valores serão restituídos, de forma total ou parcial, da mesma forma de pagamento escolhida na compra:</p>
+                <p>Cartão de Crédito: a administradora do cartão será notificada e o estorno ocorrerá de uma só vez, seja qual for o número de parcelas utilizado na compra. O prazo de ressarcimento depende da administradora do cartão, podendo ser na fatura seguinte ou na posterior.</p>
+                <p>Boleto Bancário: se o pagamento ainda não foi efetuado, o pedido será cancelado automaticamente no prazo de vencimento do boleto. Porém, se o boleto já foi pago, a restituição será efetuada por depósito bancário em até 10 dias úteis, exclusivamente na conta corrente do(a) comprador(a), que deve ser o titular.</p>
+                <p>Caso não tenha uma conta corrente que atenda às condições citadas, será enviada, no mesmo prazo, uma ordem de pagamento em nome do titular da compra, que poderá ser resgatada em qualquer agência do Banco do Brasil, basta apresentar um documento oficial com foto.</p>
+                <p>Saiba mais:</p>
+                <p>Para informações dos Prazos para Cancelamento, <a href="#">clique aqui</a></p>
+                <p>Para informações sobre como enviar o item, <a href="#">clique aqui</a></p>
+                <p>Se preferir a devolução por vale compra, <a href=#>clique aqui</a></p>
+                <a href="#">Este artigo foi util?</a>
+            </div>
+          </div>
+        </div>
+        <div class="card">
+            <div class="card-header" id="headingFour">
+              <h2 class="mb-0">
+                <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseFour" aria-expanded="true" aria-controls="collapseFour">
+                  Em quanto tempo é possível devolver o produto?
+                </button>
+              </h2>
+            </div>        
+            <div id="collapseFour" class="collapse show" aria-labelledby="headingFour" data-parent="#accordionExample">
+              <div class="card-body">
+                <p>Você pode devolver os produtos fornecidos pela Netshoes em até 30 dias corridos após o recebimento do pedido, para receber o crédito em vale compras e adquirir um novo item no site. Para as categorias e produtos listados abaixo, o prazo é de 7 dias corridos:</p>
+                <p>Produtos vendidos por Lojistas Parceiros (Marketplace) - Produtos das categorias: Bike, Fitness, Suplementos Alimentares, Beleza, Jogos e Diversão, Eletrônicos, Games, Jogos de Salão, Patins e Patinete, Relógios, Underwear, Lingerie.</p>
+                <p>Para solicitar o cancelamento da compra e o estorno/reembolso do valor, o prazo é de até 7 dias corridos, após o recebimento do pedido.</p>
+                <a href="#">Este artigo foi util?</a>
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-header" id="headingFive">
+              <h2 class="mb-0">
+                <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseFive" aria-expanded="true" aria-controls="collapseFive">
+                  Recebi um e-mail informando que o meu pagamento está pendente. E agora?
+                </button>
+              </h2>
+            </div>
+        
+            <div id="collapseFive" class="collapse show" aria-labelledby="headingFive" data-parent="#accordionExample">
+              <div class="card-body">
+                <p>Após a realização do pagamento do pedido, é necessário aguardar até 72 horas úteis a confirmação. Dentro desse período, você receberá um e-mail confirmando o pagamento ou poderá verificar diretamente em <a href="#">“Meus pedidos”</a>.</p>
+                <p>Caso tenha realizado o pagamento há mais de 72 horas, se a compra foi realizada com um (1) cartão de crédito e teve o pagamento recusado, você poderá realizar a alteração da forma de pagamento diretamente pelo site, para isso clique em <a href="#">“Meus pedidos”</a>,  selecione o pedido e clique em “Alteração de forma de pagamento”, depois digite os dados do novo cartão para prosseguir com o pagamento.</p>
+                <p>Se o pedido foi realizado com dois (2) cartões, entre em contato com a nossa Central de Relacionamento nos telefones disponíveis logo abaixo, e selecione a opção 5 do menu eletrônico.</p>
+                <p>Caso tenha realizado a compra com boleto, por favor, nos envie o comprovante de pagamento através do e-mail comprovante@netshoes.com, que nossa equipe vai entender o que aconteceu.</p>
+                <a href="#">Este artigo foi util?</a>
+              </div>
+            </div>
+          </div>
+      </div>
     <section>
-        <h1>Ainda não recebi meu pedido, o que fazer?</h1>
-        <p>Primeiro, verifique se a data não está dentro do prazo de entrega previsto, acessando <a href="#">“Meus Pedidos”</a>, onde você pode ver todos os status da compra.</p>
-        <p>Se você ainda não recebeu seu pedido e a data de entrega já expirou, certifique-se que o pagamento foi confirmado pela administradora do cartão.</p>
-        <p>Para os casos de boleto, confirme se ele foi pago até a data do vencimento.</p>
-        <p>Veja também se o endereço colocado para entrega está correto.</p>
-        <p>São feitas três tentativas de entrega, então, confirme se as pessoas encarregadas de receber seu pedido não recusaram o recebimento.</p>
-        <p>As entregas são realizadas de segunda a sexta, das 8h às 18h. Alguns fatores climáticos ou situações adversas podem interferir na entrega de suas compras. Nesses casos, verifique se na sua região ocorreram chuvas fortes ou acidentes graves.</p>
-        <p>Se o seu pedido foi enviado pelos Correios, eventualmente, ele estará disponível para retirada na própria agência. Neste caso verifique o rastreamento.</p>
-        <p>O prazo de contestação da entrega de um pedido é de 30 dias corridos, contados a partir da realização da entrega.</p>
-        <a href="#">Este artigo foi util?</a>
-        <h1>Como devolver um produto?</h1>
-        <p>Você pode fazer a devolução online em 3 passos. Confira:</p>
-        <p>1) Clique em “Meus Pedidos” e faça o login. Na lista, escolha o pedido e veja se ele já está disponível para devolução, se estiver, é só escolher o produto e clicar em “devolver item”.</p>
-        <p>2) Escolha o motivo nas opções exibidas.</p>
-        <p>3) Depois, é só finalizar e aguardar o e-mail enviado para o endereço cadastrado, com o código de postagem e outras orientações sobre a ativação do seu vale compras.</p>
-        <a href="#">Este artigo foi util?</a>
-        <h1>Como recebo o dinheiro de volta quando cancelar uma compra?</h1>
-        <p>Após a solicitação de cancelamento, começa a contar o prazo de 10 dias úteis para aprovação da devolução dos valores, que acontece depois do recebimento e análise das condições do(s) produto(s).</p>
-        <p>Os valores serão restituídos, de forma total ou parcial, da mesma forma de pagamento escolhida na compra:</p>
-        <p>Cartão de Crédito: a administradora do cartão será notificada e o estorno ocorrerá de uma só vez, seja qual for o número de parcelas utilizado na compra. O prazo de ressarcimento depende da administradora do cartão, podendo ser na fatura seguinte ou na posterior.</p>
-        <p>Boleto Bancário: se o pagamento ainda não foi efetuado, o pedido será cancelado automaticamente no prazo de vencimento do boleto. Porém, se o boleto já foi pago, a restituição será efetuada por depósito bancário em até 10 dias úteis, exclusivamente na conta corrente do(a) comprador(a), que deve ser o titular.</p>
-        <p>Caso não tenha uma conta corrente que atenda às condições citadas, será enviada, no mesmo prazo, uma ordem de pagamento em nome do titular da compra, que poderá ser resgatada em qualquer agência do Banco do Brasil, basta apresentar um documento oficial com foto.</p>
-        <p>Saiba mais:</p>
-        <p>Para informações dos Prazos para Cancelamento, <a href="#">clique aqui</a></p>
-        <p>Para informações sobre como enviar o item, <a href="#">clique aqui</a></p>
-        <p>Se preferir a devolução por vale compra, <a href=#>clique aqui</a></p>
-        <a href="#">Este artigo foi util?</a>
-        <h1>Em quanto tempo é possível devolver o produto?</h1>
-        <p>Você pode devolver os produtos fornecidos pela Netshoes em até 30 dias corridos após o recebimento do pedido, para receber o crédito em vale compras e adquirir um novo item no site. Para as categorias e produtos listados abaixo, o prazo é de 7 dias corridos:</p>
-        <p>Produtos vendidos por Lojistas Parceiros (Marketplace) - Produtos das categorias: Bike, Fitness, Suplementos Alimentares, Beleza, Jogos e Diversão, Eletrônicos, Games, Jogos de Salão, Patins e Patinete, Relógios, Underwear, Lingerie.</p>
-        <p>Para solicitar o cancelamento da compra e o estorno/reembolso do valor, o prazo é de até 7 dias corridos, após o recebimento do pedido.</p>
-        <a href="#">Este artigo foi util?</a>
-        <h1>Recebi um e-mail informando que o meu pagamento está pendente. E agora?</h1>
-        <p>Após a realização do pagamento do pedido, é necessário aguardar até 72 horas úteis a confirmação. Dentro desse período, você receberá um e-mail confirmando o pagamento ou poderá verificar diretamente em <a href="#">“Meus pedidos”</a>.</p>
-        <p>Caso tenha realizado o pagamento há mais de 72 horas, se a compra foi realizada com um (1) cartão de crédito e teve o pagamento recusado, você poderá realizar a alteração da forma de pagamento diretamente pelo site, para isso clique em <a href="#">“Meus pedidos”</a>,  selecione o pedido e clique em “Alteração de forma de pagamento”, depois digite os dados do novo cartão para prosseguir com o pagamento.</p>
-        <p>Se o pedido foi realizado com dois (2) cartões, entre em contato com a nossa Central de Relacionamento nos telefones disponíveis logo abaixo, e selecione a opção 5 do menu eletrônico.</p>
-        <p>Caso tenha realizado a compra com boleto, por favor, nos envie o comprovante de pagamento através do e-mail comprovante@netshoes.com, que nossa equipe vai entender o que aconteceu.</p>
-        <a href="#">Este artigo foi util?</a>
+        <h1>Não encontrou o que você procurava?</h1>
+        
     </section>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 </body>
 </html>
