@@ -27,6 +27,41 @@ html {
     background-color:rgb(255, 255, 255);
     width: 100%;
 }
+.conteiner-fluid .row {
+    width: 100%;
+}
+.conteiner-fluid .row a {
+    color: rgb(250, 50, 150);
+    text-decoration: none;
+    font-weight: bold;
+}
+.dropdown:hover>.dropdown-menu {
+    display: block;
+    -webkit-border-radius: 0 6px 6px 6px;
+    -moz-border-radius: 0 6px 6px 6px;
+    border-radius: 0 6px 6px 6px;
+}
+.dropdown-menu {
+    border: none;
+}
+.cart{
+    margin-left: -30%;
+    border: none;
+    width: 350px;
+    margin-left: -200%;
+    text-align: center;
+    padding: 20px;
+}
+.dropdown-menu p {
+    padding: 10px;
+    color: rgb(250, 50, 150);
+    font-weight: bold;
+    font-size: 14px;
+}
+.dropdown-item:hover {
+    color: rgb(250, 50, 150);
+    background-color: #ffffff;
+}
 .header-bar {
     background-color:rgb(255, 255, 255);
     margin: 0;
@@ -43,11 +78,11 @@ html {
 .search {
     padding:0;
 }
-.cart {
-    float: right;
+.nav {
+    background-color: rgb(250, 220, 240);
 }
-.top-nav {
-    background-color: rgb(250, 50, 150);
+.nav a {
+    color: rgb(250, 50, 150);
 }
 .top-nav ul {
     list-style: none;
@@ -56,26 +91,82 @@ html {
     display: inline-block;
     text-decoration: none;
 }
-#divBusca {
-    background-color:rgb(255, 255, 255);
-    border:solid 1px;
-    border-radius:15px;
-    height: 35px;
-    width:300px;
-  }
-   
-#txtBusca {
-    float:left;
-    background-color:transparent;
-    padding-left:10px;
-    font-style:italic;
-    font-size:18px;
-    border:none;
-    height:32px;
-    width:260px;
-  }
-#btnBusca {
-    border:none;
-    height:32px;
-    margin-top: 10px;
+.form-control {
+    border-radius: 40px;
+    border-right: none;
+    border-color: rgb(250, 50, 150);
+    height: 45px;
+}
+.input-group-text {
+    border-radius: 40px;
+    border-color: rgb(250, 50, 150);
+    border-left: none;
+    background-color: #ffffff;
+}
+.input-group-text {
+    color: rgb(250, 50, 150);
+}
+.input-group-text:hover {
+    background-color: rgb(250, 50, 150);
+    color: #ffffff;
+}
+.form-control:focus {
+    border-color: rgb(250, 50, 150);
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+.base-container {
+    width: 100%;
+    height: 500px;
+    background-image: url("../imagens/back_image_gangorra.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+.breadcrumb-item a {
+    color:#ffffff;
+    text-decoration: none;
+    font-size: 12px;
+}
+.breadcrumb-item + .breadcrumb-item::before {
+    color: #ffffff;
+}
+.base-container h2 {
+    text-align: center;
+    padding-bottom: 35px;
+    color: #ffffff;
+}
+.card{
+    border-radius: 12px;
+}
+.card-header {
+    text-align: center;
+    color: rgb(250, 50, 150);
+    padding: 20px;
+}
+.card-header a {
+    color: rgb(250, 50, 150);
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 18px;
+}
+.card-deck {
+    width: 80%;
+}
+.icon-title {
+    text-align: center;
+}
+.card-body {
+    text-align: left;
+    background-color: rgb(250, 220, 240);
+    border-radius: 0px 0px 12px 12px;
+    font-size: 14px;
+    padding: 15px 0 0;
+}
+.card-body a {
+    text-decoration: none;
+    color: #000000;
 }
