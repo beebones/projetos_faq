@@ -27,10 +27,7 @@ html {
     background-color:rgb(255, 255, 255);
     width: 100%;
 }
-.conteiner-fluid .row {
-    width: 100%;
-}
-.conteiner-fluid .row a {
+.container-fluid .row a {
     color: rgb(250, 50, 150);
     text-decoration: none;
     font-weight: bold;
@@ -97,23 +94,21 @@ html {
     border-color: rgb(250, 50, 150);
     height: 45px;
 }
+.form-control:focus {
+    border-color: rgb(250, 50, 150);
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
 .input-group-text {
     border-radius: 40px;
     border-color: rgb(250, 50, 150);
     border-left: none;
     background-color: #ffffff;
-}
-.input-group-text {
     color: rgb(250, 50, 150);
 }
 .input-group-text:hover {
     background-color: rgb(250, 50, 150);
     color: #ffffff;
-}
-.form-control:focus {
-    border-color: rgb(250, 50, 150);
-    -webkit-box-shadow: none;
-    box-shadow: none;
 }
 .base-container {
     width: 100%;
@@ -169,4 +164,11 @@ html {
 .card-body a {
     text-decoration: none;
     color: #000000;
+}
+#faq-h2 {
+    padding-top: 50px;
+    color: #000000;
+}
+#faq-search {
+    padding: 20px;
 }
