@@ -192,3 +192,13 @@ button.btn.btn-link {
     color: #363636;
     text-decoration: none;
 }
+#faq-left-col ul {
+    padding-top: 17px;
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+#faq-left-col li{
+    height: 100%;
+}
