@@ -172,3 +172,23 @@ html {
 #faq-search {
     padding: 20px;
 }
+.fa-chevron-down {
+    color: #363636;
+    font-size: 18px;
+    font-weight: bold;
+}
+.accordion .card {
+    border-radius: 5px;
+    padding: 5px;
+    border: none;
+}
+.accordion .card .card-header {
+    height: 45px;
+    padding: 10px;
+    margin-left: 10px;
+}
+button.btn.btn-link {
+    padding: 0;
+    color: #363636;
+    text-decoration: none;
+}
